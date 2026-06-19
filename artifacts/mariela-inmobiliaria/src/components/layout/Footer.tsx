@@ -9,8 +9,15 @@ export function Footer() {
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <div className="flex flex-col text-primary-foreground">
+                <img
+                  src="../../public/Logo-MarielaInmobiliaria.png"
+                  alt="Logo"
+                  className="h-15 w-60"
+                />
+                {/*
                 <span className="text-xl font-bold tracking-tight leading-none">MARIELA MARTÍNEZ</span>
                 <span className="text-[0.65rem] tracking-widest opacity-80 uppercase">NEGOCIOS INMOBILIARIOS</span>
+                */}
               </div>
             </Link>
             <p className="text-primary-foreground/80 text-sm leading-relaxed mb-6">
